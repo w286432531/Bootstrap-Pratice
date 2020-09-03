@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  margin: 1em auto .5em auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* container */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #FFF;
+}
+.white-section {
+  background-color: #FFF;
+}
+/* title */
+#toggler {
+  border-width: 2px;
+  border-color: white;
+}
+
+.col-1-1 {
+  text-align: left;
+}
+.navbar {
+  margin-bottom: 2em;
+  padding: 8px 0;
+}
+
+
+
+.title-box {
+  padding-top:3%
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 2.5em;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.rotate-pic {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* features */
+#features {
+  position: relative;
+}
+
+
+
+.featureIcon {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.featureIcon:hover {
+  color: #ff4c68;
+}
+
+.featureH {
+  margin: 1em auto .5em auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.featureP {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testH {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testPic {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.pressPic {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing-container {
+  text-align: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-grid {
+  margin: 0 0 1em 0;
+}
+
+/* call to action */
+
+
+/* footer */
+
+
+.FI {
+  margin: 0 1% 2% 1%;
+  font-size: 1.5em;
+}
+
+.footerP {
+  color: #8f8f8f;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer-box {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+@media (max-width: 992px) {
+.col-1-1 {
+    text-align: center;
+  }
+
+  .rotate-pic {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
